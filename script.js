@@ -15,7 +15,7 @@ function previewImage(){
     //if there is a form request with the key 'image'
     if(image){
         //read the referenced key value from the URL
-        reader.ReadAsDataURL(img);
+        reader.readAsDataURL(img);
         //Once preview image has been clicked, open the file dioalog
         preview.onclick = function(){
             document.querySelector("#image").click();
